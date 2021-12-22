@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <main>
+      <div class="buttons"></div>
+      <div id="etch-a-sketch">
+        <div class="left-corner"></div>
+        <div class="top"></div>
+        <div class="right-corner"></div>
+        <div class="border">
+          <p>etch-a-sketch</p>
+          <div role="button" class="left-knob random-colors">
+            <p>Random Color</p>
+          </div>
+          <div class="pick">
+            <input type="color" id="color-picker" name="Color Picker" />
+          </div>
+          <div role="button" class="right-knob grey-scale">
+            <p>Grey Scale</p>
+          </div>
+        </div>
+
+        <div role="button" class="logo new-pad">
+          <div class="logo-top-left"></div>
+          <div class="logo-top"></div>
+          <div class="logo-top-right"></div>
+          <div class="name">
+            <p>ETCH</p>
+            <p>A</p>
+            <p>SKETCH</p>
+          </div>
+          <div class="logo-bot"></div>
+        </div>
+      </div>
+    </main>
+    <footer><p>&copy 2021 TheinHein</p></footer>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
